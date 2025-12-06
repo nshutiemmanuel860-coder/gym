@@ -20,7 +20,13 @@ h1 {
 body header{
     z-index: 100;
     position: relative;
+    height: 20vh;
 }
+.nav{
+    color: white;
+    margin: 10px;
+}
+
 div.header {
     display: flex;
     justify-content: space-between;
@@ -32,6 +38,15 @@ div.header {
 }
 div#logo{
     color: white;
+    padding-top: 5px;
+}
+.logo{
+    font-size: 2px;
+    color-scheme: initial;
+}
+div.logo .img{
+    height: 0px;
+    width: 0px;
 }
 
 div.header .nav a {
@@ -41,6 +56,7 @@ div.header .nav a {
 }
 
 #home-poster{
+    z-index: 10;
     width: 100%;
     height: 100vh;
     background-color: red;
@@ -64,7 +80,21 @@ div#hero{
 #hero p{
     color: white;
 }
-
+div#description{
+    width: 45%;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 2px;
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+}
+#description p{
+    color: white;
+}
+#description a{
+    color: chocolate;
+}
 #btn-get-quote{
     border: none;
     padding: 7px 12px;
@@ -72,4 +102,7 @@ div#hero{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 13px;
+}
+#footer p{
+    color: white;
 }
