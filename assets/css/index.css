@@ -46,7 +46,7 @@ div.header .nav a {
     background-color: red;
     position: absolute;
     top: 0;
-    background-image: url(/assets/images/poster-image.jpg);
+    background-image: url(../images/poster-image.jpg);
     background-size: 100% 100%;
 }
 
